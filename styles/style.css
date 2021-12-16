@@ -1,0 +1,87 @@
+body{
+    /*background-color: #2f5fb9;*/
+    background-image: url('../img/bar\ kina.jpeg');
+
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-position: center;
+    
+}
+p{
+    color: #ffff;
+    font-size: 100px;
+    font-style: italic;
+    text-align: center;
+}
+#menu{
+    margin-top: 20px;
+    background-color: #ededed;
+    border-radius: 5px;
+    
+}
+#menu ul{
+    text-align: center;
+    list-style: none;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    padding: 12px 80px;
+    font-size: 22px;
+    background-color: #ededed;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#menu ul li a:hover{
+    background-color: #5c4444;
+    color: #ffff;
+}
+
+#item img {
+    width: 420px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+   
+}
+h1{
+    text-align: center;
+    background-color: #ededed;
+}
+
+#item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #ffff;
+        
+    background-color: rgba(0,0,0,0.85);
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
+
+  
+}
+#item p{
+    font-size: 14px;
+
+}
+#item button{
+    background-color: #ffff;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+#item button:hover{
+    background-color: rgba(97, 91, 91, 0.712);
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}

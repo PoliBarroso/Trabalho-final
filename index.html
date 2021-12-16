@@ -1,0 +1,29 @@
+<html>
+ <head>
+    <title>bar kina</title>
+ </head>
+  
+   <link rel="stylesheet" type="text/css" href="styles/style.css">
+<body>
+    <nav id="menu">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="abaut.html">Cardapio</a>
+            </li>
+            
+        </ul>
+    </nav>
+  <div id="qrcode"></div>
+    <script src="qrcode.min.js"></script>
+<script>
+new QRCode(document.getElementById('qrcode'),{
+    text: 'file:///C:/Users/55339/OneDrive/%C3%81rea%20de%20Trabalho/leo/index.html',
+ 
+})
+
+</script>
+</body>
+</html>
